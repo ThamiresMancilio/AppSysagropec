@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context="com.example.acer.appsysagropec.Main3ActivityOpcoes">
+
+
+    <TextView
+        android:id="@+id/txtMsg"
+        android:text="Bem vindo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btnProducoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visualizar produção diária"
+        android:onClick="onClickbtnProducao"
+        />
+
+    <Button
+        android:id="@+id/btnMorte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lançamento de Mortes"
+        android:onClick="onclickbtnMorte"
+        />
+
+    <Button
+        android:id="@+id/btnSincronizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sincronizar Mortes"
+        android:onClick="onclickbtnSincronizarMorte"
+        />
+
+</LinearLayout>
